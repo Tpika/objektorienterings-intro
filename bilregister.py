@@ -25,15 +25,13 @@ class Car():
         '''
         print(self.brand)
     
-    def set_color(self, new_color):
-        self.color = new_color
+    def set_color(self):
         print(self.color)
 
-    def set_mileage(self, new_mileage):
-        self.mileage = new_mileage
+    def set_mileage(self):
         print(self.mileage)
 
-    def get_mileage(self):
+    def get_mileage(self, a):
         a = self.mileage
         return a
 
@@ -43,17 +41,17 @@ class Car():
 a_car = Car('Volvo', 'Blå', 1587)
 a_car.get_brand()
 a_car.set_color()
-a_car.set_mileage(12000)
+a_car.set_mileage()
 
 b_car = Car('Lambourgini', 'Rosa', 10)
 b_car.get_brand()
 b_car.set_color()
-b_car.set_mileage(1000)
+b_car.set_mileage()
 
 c_car = Car('Ferrari', 'Röd', 1000)
 c_car.get_brand()
 c_car.set_color()
-c_car.set_mileage(1000)
+c_car.set_mileage()
 
 print("")
 cars = [a_car, b_car, c_car]
