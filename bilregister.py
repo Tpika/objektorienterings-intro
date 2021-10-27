@@ -50,8 +50,15 @@ b_car.get_brand()
 b_car.set_color('Rosa')
 b_car.set_mileage(1000)
 
-cars = [a_car, b_car]
+c_car = Car('Ferrari', 'Röd', 1000)
+c_car.get_brand()
+c_car.set_color('Röd')
+c_car.set_mileage(1000)
+
+print("")
+cars = [a_car, b_car, c_car]
 
 for car in cars:
     print(car.brand)
+
 
