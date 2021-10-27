@@ -17,13 +17,13 @@ class Car():
         '''
         print(self.brand)
 
-    def set_brand(self, new_brand):
+    def set_brand(self):
         '''
         Parameter: new_brand | sträng
         Uppdaterar bilmärket om det existerar. Om det inte existerar
         så tilldelas aktuellt objekt märket enligt parametern.
         '''
-        self.brand = new_brand
+        print(self.brand)
     
     def set_color(self, new_color):
         self.color = new_color
@@ -42,17 +42,17 @@ class Car():
 # Dessa objekt har också tillgång till klassens metoder (funktioner).
 a_car = Car('Volvo', 'Blå', 1587)
 a_car.get_brand()
-a_car.set_color('Blå')
+a_car.set_color()
 a_car.set_mileage(12000)
 
 b_car = Car('Lambourgini', 'Rosa', 10)
 b_car.get_brand()
-b_car.set_color('Rosa')
+b_car.set_color()
 b_car.set_mileage(1000)
 
 c_car = Car('Ferrari', 'Röd', 1000)
 c_car.get_brand()
-c_car.set_color('Röd')
+c_car.set_color()
 c_car.set_mileage(1000)
 
 print("")
