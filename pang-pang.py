@@ -55,6 +55,6 @@ while True:
     
     print(a_player.scores)
     print(a_player.lifes)
-
+    
 print("")
 print(f"Din slutpoäng blev: {a_player.scores}")
